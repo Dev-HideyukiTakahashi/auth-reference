@@ -2,6 +2,32 @@
 
 ---
 
+- Dependencias:
+
+```
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+<dependency>
+	<groupId>org.springframework.security</groupId>
+	<artifactId>spring-security-test</artifactId>
+	<scope>test</scope>
+</dependency>
+
+<dependency>
+	<groupId>org.springframework.security</groupId>
+	<artifactId>spring-security-oauth2-authorization-server</artifactId>
+</dependency>
+
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+</dependency>
+
+```
+
 - **client_id** e **client_secret** estão configurados no `application.properties`
 
 * User credentials não é no formado JSON e sim uriencode, são as credencias do usuário salvos no banco de dados
