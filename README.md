@@ -2,6 +2,10 @@
 
 ---
 
+- Referência:
+
+  - https://github.com/devsuperior/spring-boot-oauth2-jwt-demo
+
 - Dependencias:
 
 ```
